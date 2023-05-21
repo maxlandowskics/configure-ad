@@ -33,7 +33,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Step 1: Create a new Azure Active Directory tenant</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/mc3UJE1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Sign in to the Azure portal (portal.azure.com).
@@ -44,7 +44,7 @@ Note down the Directory ID, as you'll need it later.
 <br />
 <h2>Step 2: Create a new Azure Virtual Network</h2>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/HkyMiij.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 In the Azure portal, navigate to "Virtual networks" and click on "Create a virtual network."
@@ -55,7 +55,7 @@ Click on "Review + Create" and then "Create" to create the virtual network.
 <br />
 <h2>Step 3: Deploy a Windows Server Virtual Machine</h2>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/aubSt6W.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 In the Azure portal, navigate to "Virtual machines" and click on "Add."
@@ -68,8 +68,7 @@ Review the settings and click on "Review + Create" and then "Create" to deploy t
 </p>
 <br />
 <h2>Step 4: Configure Active Directory Domain Services (AD DS)</h2>
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p><img src="https://i.imgur.com/CGGuaal.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Once the virtual machine is deployed, navigate to its overview page in the Azure portal.
@@ -85,8 +84,6 @@ Review the settings and click on "Install" to promote the server to a domain con
   </p>
 <br />
 <h2>Step 5: Verify the Active Directory Deployment</h2>
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   Once the promotion process completes, restart the virtual machine.
